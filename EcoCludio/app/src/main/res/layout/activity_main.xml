@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/resultadoCalculoId"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background50"
+    tools:context=".MainActivity">
+
+    <!--<Spinner-->
+    <!--android:id="@+id/dropdown"-->
+    <!--android:layout_width="209dp"-->
+    <!--android:layout_height="45dp"-->
+    <!--android:layout_marginStart="8dp"-->
+    <!--android:layout_marginLeft="8dp"-->
+    <!--android:layout_marginTop="8dp"-->
+    <!--android:layout_marginEnd="8dp"-->
+    <!--android:layout_marginRight="8dp"-->
+    <!--android:layout_marginBottom="8dp"-->
+    <!--android:background="@android:drawable/btn_dropdown"-->
+    <!--android:spinnerMode="dropdown"-->
+    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--app:layout_constraintEnd_toEndOf="parent"-->
+    <!--app:layout_constraintStart_toStartOf="parent"-->
+    <!--app:layout_constraintTop_toTopOf="parent"-->
+    <!--app:layout_constraintVertical_bias="0.153" />-->
+
+
+    <TextView
+        android:id="@+id/dinheiroGanhoId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="#000"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.283" />
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/radio_group"
+        android:layout_width="443dp"
+        android:layout_height="263dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <RadioButton
+            android:id="@+id/radio_chapaalum"
+            android:layout_width="116dp"
+            android:layout_height="wrap_content"
+            android:buttonTint="#008000"
+            android:text="Chaparia (Alumn.)"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/radio_acoinox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="#008000"
+            android:text="Aço Inox"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/radio_bateria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="#008000"
+            android:text="Bateria"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/radio_motorgela"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="#008000"
+            android:text="Motor de Geladeira (Un.)"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/radio_cobre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="#008000"
+            android:text="Cobre"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/radio_lata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="#008000"
+            android:text="Lata"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/radio_papelao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="#008000"
+            android:text="Papelão"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/radio_pet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="#008000"
+            android:text="Garrafa Pet"
+            android:textColor="#000"
+            android:textSize="15sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/botaoCalcularId"
+        android:layout_width="240dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Calcular"
+        android:textColor="#ffffff"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.789" />
+
+    <EditText
+        android:id="@+id/pesoRecycleId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textColor="#000"
+        android:textColorLink="#4f805f"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/radio_group"
+        app:layout_constraintVertical_bias="0.467" />
+
+</android.support.constraint.ConstraintLayout>
