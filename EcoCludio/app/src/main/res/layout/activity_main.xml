@@ -47,8 +47,8 @@
 
     <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/radio_group"
-        android:layout_width="443dp"
-        android:layout_height="263dp"
+        android:layout_width="338dp"
+        android:layout_height="255dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
@@ -56,81 +56,82 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0">
 
         <RadioButton
             android:id="@+id/radio_chapaalum"
-            android:layout_width="116dp"
-            android:layout_height="wrap_content"
+            android:layout_width="120dp"
+            android:layout_height="18dp"
             android:buttonTint="#008000"
             android:text="Chaparia (Alumn.)"
             android:textColor="#000"
-            android:textSize="15sp" />
+            android:textSize="10sp" />
 
         <RadioButton
             android:id="@+id/radio_acoinox"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="20dp"
             android:buttonTint="#008000"
             android:text="Aço Inox"
             android:textColor="#000"
-            android:textSize="15sp" />
+            android:textSize="10sp" />
 
         <RadioButton
             android:id="@+id/radio_bateria"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="18dp"
             android:buttonTint="#008000"
             android:text="Bateria"
             android:textColor="#000"
-            android:textSize="15sp" />
+            android:textSize="10sp" />
 
         <RadioButton
             android:id="@+id/radio_motorgela"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="21dp"
             android:buttonTint="#008000"
             android:text="Motor de Geladeira (Un.)"
             android:textColor="#000"
-            android:textSize="15sp" />
+            android:textSize="10sp" />
 
         <RadioButton
             android:id="@+id/radio_cobre"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="22dp"
             android:buttonTint="#008000"
             android:text="Cobre"
             android:textColor="#000"
-            android:textSize="15sp" />
+            android:textSize="10sp" />
 
         <RadioButton
             android:id="@+id/radio_lata"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="22dp"
             android:buttonTint="#008000"
             android:text="Lata"
             android:textColor="#000"
-            android:textSize="15sp" />
+            android:textSize="10sp" />
 
         <RadioButton
             android:id="@+id/radio_papelao"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="18dp"
             android:buttonTint="#008000"
             android:text="Papelão"
             android:textColor="#000"
-            android:textSize="15sp" />
+            android:textSize="10sp" />
 
         <RadioButton
             android:id="@+id/radio_pet"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="21dp"
             android:buttonTint="#008000"
             android:text="Garrafa Pet"
             android:textColor="#000"
-            android:textSize="15sp" />
+            android:textSize="10sp" />
     </RadioGroup>
 
     <Button

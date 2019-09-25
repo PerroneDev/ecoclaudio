@@ -55,10 +55,25 @@ public class MainActivity extends AppCompatActivity {
                 } else {
                     Double valorDigitado = Double.parseDouble(pesoDigitado);
                     if (id == R.id.radio_lata)  {
-                        Double valorResultado = valorDigitado * 3.70;
+                        Double valorResultado = valorDigitado * 3.20;
                         dinheiroGanho.setText("R$" + String.format("%.2f", valorResultado));
                     } else if (id == R.id.radio_papelao) {
                         Double valorResultado = valorDigitado * 0.20;
+                        dinheiroGanho.setText("R$" +  String.format("%.2f", valorResultado));
+                    } else if (id == R.id.radio_chapaalum) {
+                        Double valorResultado = valorDigitado * 3.20;
+                        dinheiroGanho.setText("R$" +  String.format("%.2f", valorResultado));
+                    } else if (id == R.id.radio_acoinox) {
+                        Double valorResultado = valorDigitado * 1.50;
+                        dinheiroGanho.setText("R$" +  String.format("%.2f", valorResultado));
+                    } else if (id == R.id.radio_bateria) {
+                        Double valorResultado = valorDigitado * 2.20;
+                        dinheiroGanho.setText("R$" +  String.format("%.2f", valorResultado));
+                    } else if (id == R.id.radio_motorgela) {
+                        Double valorResultado = valorDigitado * 12.00;
+                        dinheiroGanho.setText("R$" +  String.format("%.2f", valorResultado));
+                    } else if (id == R.id.radio_cobre) {
+                        Double valorResultado = valorDigitado * 13.00;
                         dinheiroGanho.setText("R$" +  String.format("%.2f", valorResultado));
                     } else {
                         Double valorResultado = valorDigitado * 1.78;
